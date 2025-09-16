@@ -1,8 +1,9 @@
+// Estruturas condicionais
 
-// Trabalhando com saída de dados.
-console.log("Fui criado no arquivo JavaScript.");
+const idade = 15;
 
-// Tipos de dados.
-console.log("texto"); //string = texto
-console.log(29.5); // number
-console.log(true, false); //boolean = Verdadeiro ou falso
+if(idade > 18){
+    console.log("Você é maior de idade.");
+} else {
+    console.log("Você é menor de idade.");
+};
